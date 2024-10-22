@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+I'm Akshat Vij, a sophmore at Northeastern University majoring in Mathematics and Finance with a minor in Data Science. I'm passionate about quantitative finance, machine learning, and data-driven problem-solving. My career goal is to apply my skills in trading and quantitative research, creating innovative models and strategies for financial markets.
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vij-akshat)](https://github.com/anuraghazra/github-readme-stats)
 <!--
 **vij-akshat/vij-akshat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
