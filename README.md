@@ -2,6 +2,8 @@
 
 <h1 align="center">Hi 👋, I'm Akshat Vij</h1>
 I am currently working on uploading my projects in my portfolio and resume to Git and I hope to be done with that very soon. :)
+
+
 - 🔭 I’m currently working on **Flight Prediction Model**
 
 - 🌱 I’m currently learning **PyTorch**
