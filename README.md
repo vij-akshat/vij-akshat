@@ -1,4 +1,4 @@
-### Hi there 👋, Akshat Vij 
+### Hi there 👋
 #### Quantatative Finance and Machine Learning 
 I'm Akshat Vij, a sophmore at Northeastern University majoring in Mathematics and Finance with a minor in Data Science. I'm passionate about quantitative finance, machine learning, and data-driven problem-solving. My career goal is to apply my skills in trading and quantitative research, creating innovative models and strategies for financial markets.
 
