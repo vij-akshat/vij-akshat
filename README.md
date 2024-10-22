@@ -1,6 +1,6 @@
 ### Hi there 👋, Akshat Vij 
 #### Quantatative Finance and Machine Learning 
-(https://github.com/vij-akshat/vij-akshat/blob/main/README.png)
+! [Design and Development](https://github.com/vij-akshat/vij-akshat/blob/main/README.png)
 I'm Akshat Vij, a sophmore at Northeastern University majoring in Mathematics and Finance with a minor in Data Science. I'm passionate about quantitative finance, machine learning, and data-driven problem-solving. My career goal is to apply my skills in trading and quantitative research, creating innovative models and strategies for financial markets.
 
 Skills: Python / PyTorch / NumPy / Pandas / Scikit-learn / MongoDB / Flask / JavaScript / HTML / CSS / Data Visualization / Machine Learning / Quantitative Finance / SPSS / Git / SQL / Neural Networks / Regression Analysis
