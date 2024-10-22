@@ -1,7 +1,7 @@
 <img width="1834" alt="README" src="https://github.com/user-attachments/assets/fdbabcc2-0909-4458-85c5-eef088668725">
 
 <h1 align="center">Hi 👋, I'm Akshat Vij</h1>
-I am currently working on uploading my projects in my portfolio and resume to Git and I hope to be done with that very soon. :)
+I am currently working on uploading my projects in my portfolio and resume to Git and I hope to be done with that very soon.
 
 
 - 🔭 I’m currently working on **Flight Prediction Model**
