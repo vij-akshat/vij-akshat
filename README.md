@@ -1,22 +1,49 @@
-<img width="1834" alt="README" src="https://github.com/user-attachments/assets/fdbabcc2-0909-4458-85c5-eef088668725">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <img alt="Akshat Vij, quantitative research. The heat equation, with a surface showing a sharp initial temperature profile diffusing into a smooth curve over time." src="./assets/header-light.svg" width="100%">
+</picture>
 
-<h1 align="center">Hi 👋, I'm Akshat Vij</h1>
-I am currently working on uploading my projects in my portfolio and resume to Git and I hope to be done with that very soon.
+I study mathematics and finance at Northeastern University (minor in data science, class of 2027) and do quantitative research on volatility, regime detection, and derivatives pricing.
 
+Most of what's here is built from first principles. I write the base model by hand, check it against a case with a known answer, extend it one step at a time, and only then calibrate it to real data and turn it into something usable.
 
-- 🔭 I’m currently working on **Flight Prediction Model**
+## Now
 
-- 🌱 I’m currently learning **PyTorch**
+- **Quantitative Researcher, [Northeastern University Systematic Alpha](https://github.com/NU-Systematic-Alpha).** Pricing options around earnings announcements: replicating Dubinsky, Johannes, Kaeck & Seeger (*RFS*, 2019) and extending their earnings-jump model to stochastic (Heston) and local (Dupire) volatility.
+- **Teaching assistant, Differential Equations** at Northeastern.
+- **Building** a multivariate volatility framework (DCC-GARCH, GO-GARCH, Bayesian stochastic volatility) and a Bayesian changepoint study (HSMM, reversible-jump MCMC, Markov-switching VAR).
 
-- 👯 I’m looking to collaborate on **Quantitative and Marking Making models**
+## Selected work
 
-- 📫 How to reach me **akshatvij99@gmail.com**
+| Project | What it does | Methods |
+|---|---|---|
+| [**derimo**](https://github.com/vij-akshat/derimo) | A derivative pricing, modelling, and risk library across three asset classes. Install it with `pip install derimo`. | Stochastic calculus |
+| [**Delta hedging P&L**](https://github.com/vij-akshat/delta-hedging-pnl) | Delta hedging from first principles: gamma–theta P&L, the 1/√N replication law, cost-aware rebalancing, and model risk when prices jump or volatility is stochastic. | Black–Scholes Greeks, jump and stochastic-vol models |
+| [**VWAP and market impact**](https://github.com/vij-akshat/vwap-market-impact) | Optimal execution from first principles: benchmarking against VWAP, decomposing market impact, and tracing the cost–risk frontier. | Almgren–Chriss, impact models |
+| [**Market regime detection**](https://github.com/vij-akshat/market-regime-detection) | Identifies distinct market states from sector ETF returns, with a [live app](https://market-regime-detection-6hisenpwzndtox2duxlqe9.streamlit.app). | Singular value decomposition |
+| [**Portfolio optimizer**](https://github.com/vij-akshat/portfolio-optimizer) | Mean-variance optimization from the Markowitz frontier to real constraints: position limits, sector caps, and turnover, with a [live app](https://portfolio-optimizer-lne53yq74g458zxupuarcy.streamlit.app). | Convex optimization (CVXPY) |
+| [**Cardinality-constrained portfolios**](https://github.com/vij-akshat/Cardinality-Constrained-Portfolio-Optimization) | Mean-variance optimization with a cap on the number of assets held, which turns a convex problem into a combinatorial one. | Integer programming |
+| [**Implied volatility surface**](https://github.com/vij-akshat/volitality-surface) | Builds implied volatility surfaces from live options data, with a [live app](https://volatility-surface.streamlit.app). | Black–Scholes, Brent root-finding |
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/akshat-vij" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="akshat-vij" height="30" width="40" /></a>
-<a href="https://instagram.com/vij.akshat" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="vij.akshat" height="30" width="40" /></a>
-</p>
+<details>
+<summary><b>Model library</b>: the base models the projects above are built on</summary>
+<br>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+Each one is derived, implemented from scratch, and tested on market data in [model-executions](https://github.com/vij-akshat/model-executions), then reused as a building block.
+
+| Area | Models |
+|---|---|
+| Regimes and breaks | Hidden Markov model, CUSUM, SADF bubble tests |
+| Filtering and signals | Kalman filter, wavelets |
+| Volatility and memory | Volatility estimators, Yang–Zhang volatility, Hurst exponent |
+| Information and complexity | Entropy, Lempel–Ziv complexity |
+| Simulation | Monte Carlo methods |
+| Allocation | Ikigaii, an asset-allocation engine for Indian equities on the NSE |
+
+</details>
+
+## Tools and contact
+
+Python (NumPy, pandas, PyTorch, TensorFlow, CVXPY, Streamlit), SQL (MySQL, MongoDB), Docker, Flask, Git, and LaTeX.
+
+Reach me on [LinkedIn](https://linkedin.com/in/akshat-vij) or by [email](mailto:akshatvij99@gmail.com).
