@@ -17,7 +17,6 @@ Most of what's here is built from first principles. I write the base model by ha
 
 | Project | What it does | Methods |
 |---|---|---|
-| [**derimo**](https://github.com/vij-akshat/derimo) | A derivative pricing, modelling, and risk library across three asset classes. Install it with `pip install derimo`. | Stochastic calculus |
 | [**Delta hedging P&L**](https://github.com/vij-akshat/delta-hedging-pnl) | Delta hedging from first principles: gamma–theta P&L, the 1/√N replication law, cost-aware rebalancing, and model risk when prices jump or volatility is stochastic. | Black–Scholes Greeks, jump and stochastic-vol models |
 | [**VWAP and market impact**](https://github.com/vij-akshat/vwap-market-impact) | Optimal execution from first principles: benchmarking against VWAP, decomposing market impact, and tracing the cost–risk frontier. | Almgren–Chriss, impact models |
 | [**Market regime detection**](https://github.com/vij-akshat/market-regime-detection) | Identifies distinct market states from sector ETF returns, with a [live app](https://market-regime-detection-6hisenpwzndtox2duxlqe9.streamlit.app). | Singular value decomposition |
